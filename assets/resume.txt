@@ -1,0 +1,43 @@
+Rounak Dey
++91 7982542472 | rounak23449@iiitd.ac.in | linkedin.com/in/rickyxr | github.com/ricky16x
+
+Education
+Indraprastha Institute of Information Technology (IIIT Delhi) New Delhi, IN
+Bachelor of Technology in Computer Science & Engineering Aug. 2023 – 2027
+
+Technical Skills
+Languages: C/C++, Java, Golang, SQL
+Competitive Programming: Leetcode Knight (1977), Codeforces Expert (1671)
+Expertise: Data Structures & Algorithms, Operating Systems, System Design, Object Oriented Programming
+Tools: Git, Docker, Linux, Kafka, Kubernetes, Redis, RabbitMQ, Elasticsearch
+Databases: MongoDB, DynamoDB, Cassandra, PostgreSQL, MySQL
+Coursework: Introduction to Fintech, Operating Systems, Database Management Systems, Computer Networks
+
+Projects
+Verdis-Go: Redis-Compatible In-Memory Data Store | Golang, TCP/RESP Protocol GitHub | 2026
+• Engineered a Redis-compatible in-memory data store in Go from scratch, implementing the RESP protocol and 25+ commands across strings, lists, hashes, and sets, sustaining 79K req/s (GET) and 77K req/s (SET) at sub-millisecond p99 latency
+• Built a goroutine-per-client concurrency model with 16-way sharded, fine-grained locking, sustaining 60-71K req/s at 500 concurrent clients with consistent throughput across all data types
+• Implemented dual persistence (AOF command logging + RDB snapshotting) at a measured 14% throughput cost, and master-replica replication with full/partial resync via a replication backlog, verified through live crash-recovery testing
+
+CipherChat | C++17, Socket Programming, OpenSSL GitHub | 2025
+• Built a real-time encrypted client-server chat platform in C++17 supporting secure multi-room communication over TCP
+• Implemented X25519 key exchange, HKDF-SHA256 key derivation, and AES-256-GCM authenticated encryption with AAD-bound per-room and per-session keys
+• Developed a multithreaded server architecture (accept thread + worker-per-client) with dynamic room management, encrypted message history replay, and a custom binary framing protocol
+
+Pesky Birds | Java, LibGDX, Box2D, Gradle GitHub | 2025 – 2026
+• Developed a 2D physics-based Angry Birds clone using LibGDX and Box2D, featuring slingshot-driven projectile mechanics and collision-based destructible environments
+• Built multiple levels with progression, scoring, win/lose conditions, pause/resume, and a level-selector system
+• Designed a modular OOP architecture applying inheritance (shared GameObject base class), polymorphism (overridden update methods), abstraction (Renderable interface), and encapsulation across game entities
+
+Experience
+Undergraduate Student Researcher August 2025 – Present
+Network Security Lab, IIIT Delhi New Delhi, India
+• Conducted dynamic behavioral analysis of Android malware using the COMEX testbed across 11 real Android devices, collecting network, syscall, and CPU runtime data
+• Built a TF-IDF syscall feature pipeline (106K+ features, 19.5K samples) and trained an MLP classifier achieving 82.7% accuracy for malware detection
+• Reproduced Hfinger-based HTTP classification on 406K+ requests, showing syscall features outperform network-based features under open-set conditions
+
+Achievements
+LeetCode: Solved 300+ problems, achieving a highest rating of 1977 (Knight).
+Codeforces: Achieved a highest rating of 1671 (Expert), Ranked 1550 in Codeforces Round 1117 (Div. 2)
+JEE Main 2023: Secured a position in the top 1% of over 1 million candidates nationwide.
+JEE Advanced 2023: Achieved All India Rank (AIR) 11,800, placing among the top-performing engineering aspirants in India

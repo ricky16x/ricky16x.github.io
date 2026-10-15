@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "id": "verdis-go",
+      "name": "Verdis-Go: Redis-Compatible In-Memory Data Store",
+      "summary": "Golang implementation of a Redis-compatible in-memory data store using the RESP protocol.",
+      "description": "Engineered a Redis-compatible in-memory data store in Go from scratch, implementing the RESP protocol and 25+ commands across strings, lists, hashes, and sets, sustaining 79K req/s (GET) and 77K req/s (SET) at sub-millisecond p99 latency.",
+      "stack": ["Golang", "TCP/RESP Protocol", "Redis"],
+      "features": [
+        "RESP protocol implementation for 25+ commands",
+        "Goroutine-per-client concurrency model with sharded locking",
+        "AOF command logging, RDB snapshotting, and replication backlog"
+      ],
+      "github": "https://github.com/ricky16x/verdis-go",
+      "demo": "",
+      "startDate": "2026",
+      "endDate": "2026",
+      "notes": "Verified through live crash-recovery testing and replication behavior analysis."
+    },
+    {
+      "id": "cipherchat",
+      "name": "CipherChat",
+      "summary": "Real-time encrypted client-server chat platform with secure room-based communication.",
+      "description": "Built a real-time encrypted client-server chat platform in C++17 supporting secure multi-room communication over TCP. Implemented X25519 key exchange, HKDF-SHA256 key derivation, and AES-256-GCM authenticated encryption with AAD-bound per-room and per-session keys.",
+      "stack": ["C++17", "Socket Programming", "OpenSSL"],
+      "features": [
+        "X25519 key exchange and HKDF-SHA256 derivation",
+        "AES-256-GCM per-room and per-session encryption",
+        "Multithreaded server with room management and encrypted history replay"
+      ],
+      "github": "https://github.com/ricky16x/CipherChat",
+      "demo": "",
+      "startDate": "2025",
+      "endDate": "2025",
+      "notes": "Built with a custom binary framing protocol over TCP."
+    },
+    {
+      "id": "pesky-birds",
+      "name": "Pesky Birds",
+      "summary": "2D physics-based Angry Birds clone built in Java with LibGDX and Box2D.",
+      "description": "Developed a 2D physics-based Angry Birds clone using LibGDX and Box2D, featuring slingshot-driven projectile mechanics and collision-based destructible environments. Built multiple levels with progression, scoring, win/lose conditions, pause/resume, and a level-selector system.",
+      "stack": ["Java", "LibGDX", "Box2D", "Gradle"],
+      "features": [
+        "Slingshot projectile mechanics and destructible environments",
+        "Level progression, scoring, and win/lose logic",
+        "Modular OOP design using inheritance, polymorphism, abstraction, and encapsulation"
+      ],
+      "github": "https://github.com/ricky16x/AngryBirds",
+      "demo": "",
+      "startDate": "2025",
+      "endDate": "2026",
+      "notes": "Built as a modular game architecture with reusable game entities and render hooks."
+    }
+  ]
+}
