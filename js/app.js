@@ -617,8 +617,15 @@ const terminal = new Terminal({
 
       if (target === 'hire-me') {
         return [
-          { type: 'text', value: 'sudo: Permission denied. This portfolio is a browser experience, not a Linux shell.' },
-          { type: 'text', value: 'But yes — I am interested in backend engineering opportunities and would love to connect.' },
+          { type: 'block', title: 'Hiring mode: ready', content: [
+            `${PROFILE.name} — ${PROFILE.title} | IIIT Delhi, 2027`,
+            'Systems built: Verdis-Go (79K GET req/s), encrypted C++ chat, and a Java physics game.',
+            'Problem-solving: LeetCode Knight (1977) · Codeforces Expert (1671).',
+            'Looking for: backend engineering opportunities where reliability and performance matter.',
+          ] },
+          { type: 'text', value: 'Privilege check passed: good engineering conversations are open to everyone.' },
+          { type: 'link', label: '✉️ Start a conversation', href: `mailto:${PROFILE.email}?subject=${encodeURIComponent('Backend engineering opportunity')}` },
+          { type: 'link', label: '📄 View resume', href: PROFILE.resume },
         ];
       }
 

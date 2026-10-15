@@ -80,7 +80,7 @@ export function getCommandList() {
     { command: 'history', description: 'Display previously executed commands.' },
     { command: 'clear', description: 'Clear terminal output.' },
     { command: 'banner', description: 'Display the portfolio welcome banner.' },
-    { command: 'sudo hire-me', description: 'Display a playful hiring message.' },
+    { command: 'sudo hire-me', description: 'Run the hiring-mode profile check and show contact links.' },
     { command: 'copy', description: 'Copy the configured contact card to the clipboard.' },
     { command: 'exit', description: 'Display a browser-based portfolio message.' },
   ];
